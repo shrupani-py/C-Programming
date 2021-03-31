@@ -15,22 +15,22 @@ int main(){
 // we done this program using the final value 9.
 
 int integer(){
-    char nm [] = "Sadiqhasan";
-    int i = 0;
+    char nm [] = "Integer_String";  // This is a String
+    int i = 0;                  // Initialized by I to 0.
 
     printf("\n Using Integers : \n Your Name is : ");
-    while (i <= 9){
-        printf("%c",nm[i]);
-        i++;
+    while (i <= 9){             // Condition take upto 9 Characters.
+        printf("%c",nm[i]);     // printing a String.
+        i++;                    // Incrementing 
     }
-    return 0 ;
-}
+    return 0 ;                  // Returning zero 
+}                               // And the Program Ends here
 
 // Can we use this same program without using 9 ?
 // Yes we can . let us see in this Function .
 
 int null(){
-    char name[] = "Sadiqhasan";
+    char name[] = "Null_String";
     int i = 0;
 
     printf("\n Using Null : \n Your Name is : ");
@@ -49,7 +49,7 @@ same program; this one uses a pointer to access the array elements.*/
 
 //program using pointers.
 int pointers(){
-    char nm[] = "Sadiqhasan";
+    char nm[] = "Pointer_String";
     char *ptr ;
 
     ptr = nm ; //stored the address of String.
